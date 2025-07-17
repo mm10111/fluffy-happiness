@@ -40,15 +40,7 @@ export default function Board() {
          <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
 
       </div>
-     
-     <button className="square">L</button>
-     <button className="square">O</button>
-     <button className="square">Z</button>
-     <button className="square">E</button>
-     <button className="square">E</button>
-     <button className="square">N</button>
-     <button className="square">A</button>
-     <button className="square">T</button>
+  
    </>
   );
 }
